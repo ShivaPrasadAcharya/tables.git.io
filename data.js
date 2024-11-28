@@ -1,5 +1,33 @@
 const tableData = [
     {
+    id: "T0003",
+    subject: "federalism",
+    title: "India-Pakistan",
+    caption: "Comparision table",
+    table: [
+        ["", "Aspect", "India", "Pakistan", "Nepal", ""],
+        ["", "Constitutional Basis", "Constitution of India (1950)", "Constitution of Pakistan (1973)", "Constitution of Nepal (2015)", ""],
+        ["", "Nature of Federation", "Quasi-federal with strong central tendencies", "Federal parliamentary system", "Federal democratic republic", ""],
+        ["", "Number of Units", "28 States, 8 Union Territories", "4 Provinces, Islamabad Capital Territory, FATA integrated in 2018", "7 Provinces", ""],
+        ["", "Legislative Division", "Three Lists: Union, State, Concurrent", "Two Lists: Federal and Provincial", "Five Lists: Federal, Provincial , Local, Federal-Province Concurrent, Concurrent", ""],
+        ["", "Residual Powers", "Reside with the Union", "Reside with the Provinces", "Reside with the Federation", ""],
+        ["", "Local Government System", "Panchayati Raj (rural) and Municipalities (urban)", "Weak and largely controlled by provinces", "Constitutionally mandated  local governments", ""],
+        ["", "Upper House Representation", "Rajya Sabha, states have proportional representation", "Senate, equal representation for provinces", "National Assembly, provinces represented proportionally", ""],
+        ["", "Key Federal Body for Coordination", "Inter-State Council", "Council of Common Interests (CCI)", "Inter-Provincial Council  (Art.234)", ""],
+        ["", "Financial Resource Distribution", "Finance Commission for central-state transfers", "National Finance Commission (NFC)", "National Natural Resources and Fiscal Commission (NNFRC)", ""],
+        ["", "Decentralization", "Strong central control over key areas", "Strengthened provincial autonomy (18th Amendment)", "Strong emphasis on local governance and federal equality", ""],
+        ["", "Amendments Impacting Federalism", "42nd Amendment (1976) increased central powers, later balanced by 73rd and 74th Amendments", "18th Amendment (2010) significantly enhanced provincial autonomy", "2015 Constitution established federal system", ""],
+        ["", "Ethnic and Cultural Considerations", "Linguistic reorganization of states", "Ethnic and regional tensions in provinces like Balochistan", "Federal structure based on ethnic and geographic divisions", ""],
+        ["", "Judiciary’s Role", "Supreme Court resolves federal disputes", "Supreme Court resolves federal disputes", "Constitutional Bench of the Supreme Court resolves federal unit disputes", ""],
+        ["", "Language Policy", "Official language is Hindi; English as associate language", "Urdu as the national language; regional languages recognized", "Nepali as the official language; local languages recognized", ""],
+        ["", "Challenges", "Regional autonomy demands (e.g., Kashmir, Northeast)", "Center-province tensions, ethnic conflicts, resource sharing issues", "Effective implementation, inter-province coordination", ""]
+    ],
+    footnote: "sd",
+    compiler: "df",
+    dateCreated: "2024-11-28"
+},
+    
+    {
     id: "T0002",
     subject: "federalism",
     title: "India-Pakistan",
