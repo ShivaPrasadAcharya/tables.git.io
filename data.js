@@ -12,7 +12,6 @@ const tableData = [
     footnote: "compiled by: Shiva Prasad Acharya, Supreme Court",
     compiler: "compiled by: Shiva Prasad Acharya, Supreme Court",
     dateCreated: "2024-11-28"
-},
   }
   // Add more table objects here
 ];
