@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    padding-top: 140px;
+}
+
+/* Fixed Header */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    z-index: 1000;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Search Section */
+.search-section {
+    margin-bottom: 10px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#searchInput {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.search-nav {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.search-nav button {
+    border: none;
+    background: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#matchCount {
+    margin: 0 10px;
+}
+
+/* Filter Section */
+.filter-section {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.filter-section select {
+    flex: 1;
+}
+
+/* Table Sections */
+.table-section {
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.table-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.table-info {
+    margin-bottom: 15px;
+}
+
+.table-title {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.table-subtitle {
+    font-style: italic;
+}
+
+.table-caption {
+    text-transform: uppercase;
+}
+
+/* Table Styles */
+.table-responsive {
+    margin-bottom: 15px;
+}
+
+.table th {
+    font-weight: bold;
+}
+
+/* Form Styles */
+.form-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+/* Highlight Styles */
+.highlight {
+    background-color: yellow;
+}
+
+.highlight.active {
+    background-color: orange;
+}
+
+/* Read More/Less */
+.read-more-content {
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+/* Print Styles */
+@media print {
+    .fixed-header,
+    .table-actions,
+    #addNewTable,
+    .form-section {
+        display: none !important;
+    }
+
+    body {
+        padding-top: 0;
+    }
+
+    .table-section {
+        break-inside: avoid;
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    body {
+        padding-top: 180px;
+    }
+
+    .filter-section {
+        flex-direction: column;
+    }
+
+    .button-group {
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSC Exam Tables</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Fixed Header -->
+    <div class="fixed-header">
+        <div class="search-section">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search tables...">
+                <span class="search-nav">
+                    <button id="prevMatch"><i class="fas fa-chevron-up"></i></button>
+                    <span id="matchCount">0/0</span>
+                    <button id="nextMatch"><i class="fas fa-chevron-down"></i></button>
+                </span>
+            </div>
+        </div>
+        
+        <div class="filter-section">
+            <select id="subjectFilter" class="form-select">
+                <option value="all">All Subjects</option>
+            </select>
+            <select id="titleFilter" class="form-select">
+                <option value="all">All Titles</option>
+            </select>
+            <select id="captionFilter" class="form-select">
+                <option value="all">All Captions</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container-fluid main-content">
+        <button id="addNewTable" class="btn btn-primary mb-3">
+            <i class="fas fa-plus"></i> Add New Table
+        </button>
+        
+        <!-- Form Section -->
+        <div id="tableForm" class="form-section" style="display: none;">
+            <h3>Add/Edit Table</h3>
+            <form id="tableDataForm">
+                <input type="hidden" id="editingId">
+                <div class="mb-3">
+                    <label for="tableId" class="form-label">Table ID</label>
+                    <input type="text" class="form-control" id="tableId" required>
+                </div>
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subject" required>
+                </div>
+                <div class="mb-3">
+                    <label for="title" class="form-label">Title</label>
+                    <input type="text" class="form-control" id="title" required>
+                </div>
+                <div class="mb-3">
+                    <label for="caption" class="form-label">Caption</label>
+                    <input type="text" class="form-control" id="caption" required>
+                </div>
+                <div class="mb-3">
+                    <label for="tableContent" class="form-label">Table Content (Use | as column separator and new line for rows)</label>
+                    <textarea class="form-control" id="tableContent" rows="5" required></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="footnote" class="form-label">Footnote</label>
+                    <textarea class="form-control" id="footnote" rows="3"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="compiler" class="form-label">Compiler</label>
+                    <input type="text" class="form-control" id="compiler" required>
+                </div>
+                <div class="button-group">
+                    <button type="button" class="btn btn-secondary" id="previewBtn">Preview</button>
+                    <button type="button" class="btn btn-primary" id="generateBtn">Generate Code</button>
+                    <button type="submit" class="btn btn-success" id="saveBtn">Save</button>
+                    <button type="button" class="btn btn-danger" id="cancelBtn">Cancel</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Tables Container -->
+        <div id="tablesContainer"></div>
+    </div>
+
+    <!-- Preview Modal -->
+    <div class="modal fade" id="previewModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Preview</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="previewContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Generate Code Modal -->
+    <div class="modal fade" id="codeModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Generated Code</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <pre><code id="generatedCode"></code></pre>
+                    <button class="btn btn-primary" id="copyCode">Copy Code</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="data.js"></script>
+    <script src="utils.js"></script>
+    <script src="table.js"></script>
+    <script src="search.js"></script>
+    <script src="filter.js"></script>
+    <script src="form.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
