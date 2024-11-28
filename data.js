@@ -1,5 +1,19 @@
 const tableData = [
     {
+    id: "M0004",
+    subject: "public service",
+    title: "bureaucracy",
+    caption: "Maturity vs Experience Matrix:",
+    table: [
+        ["--", "Low Experience", "High Experience"],
+        ["<b>High Maturity</b>", "Emerging Leader<br>• Quick learner<br>• Responsible<br>• Needs mentoring", "Seasoned Professional<br>• Strategic thinker<br>• Mentor to others<br>• Ready for top roles"],
+        ["<b>Low Maturity</b>", "Entry Level<br>• Requires guidance<br>• Basic skills only<br>• Needs training", "Technical Expert<br>• Skilled but rigid<br>• Poor team player<br>• Needs soft skills"]
+    ],
+    footnote: "compiler: shiva prasad acharya, supreme court",
+    compiler: "",
+    dateCreated: "2024-11-28"
+},
+    {
     id: "T0003",
     subject: "federalism",
     title: "India-Pakistan-Nepal",
