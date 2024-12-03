@@ -1,23 +1,23 @@
 const tableData = [
-  {
-    id: "T0009",
-    subject: "Cyber Security",
-    title: "Cyber Crime",
-    caption: "Forms of Cyber Crime",
-    table: [
-        ["", "व्यक्ति विरुद्ध हुने साइबर कसूर (Cyber Crimes Against Individual)", "सम्पत्ति विरुद्ध हुने साइबर कसूर (Cyber Crimes Against Property)", "राज्य तथा समाज विरुद्ध हुने साइबर कसूर (Cyber Crimes Against State & Society)", ""],
-        ["", "साइबर स्टकिङ्ग (Cyber Stalking)", "अवैध वस्तुहरूको बिक्री (Sale of Illegal Articles)", "गोप्य सूचना चोरी गर्न कम्प्युटर प्रणालीमा अनधिकृत प्रवेश (Intrusion of Computer System to extract secret Information)", ""],
-        ["", "अश्लील सामग्री प्रसारण (Dissemination Obscene Materials)", "इन्टर टाइम थेफ्ट (Inter time Theft)", "साइबर आतंकवाद (Cyber Terrorism)", ""],
-        ["", "कम्प्युटर प्रणालीमाथि अनधिकृत नियन्त्रण (Unauthorized Control Access over Computer System)", "बौद्धिक सम्पत्ति चोरी (Intellectual Property Crime)", "निजी सफ्टवेयरको वितरण (Distribution of Private Software)", ""],
-        ["", "अश्लील प्रदर्शन (Indecent exposure)", "कम्प्युटर प्रणालीमा अनधिकृत पहुँच (Unauthorized Access over Computer System)", "अवैध मानव बेचबिखन अनलाइन (Illegal Human Trafficking Online)", ""],
-        ["", "इमेल स्पूफिङ (Email Spoofing)", "डिनायल अफ सर्भिस आक्रमण (Denial of Service Attack)", "वित्तीय जालसाजी (Financial Frauds)", ""],
-        ["", "अश्लील चित्र/भिडियो (Pornography)", "भाइरस प्रसारण (Virus Transmission)", "अनलाइन जुवा (Online Gambling)", ""],
-        ["", "इमेल मार्फत दुर्व्यवहार (Harassment Via Email)", "कम्प्युटर तोडफोड (Computer Vandalism)", "अवैध वस्तुहरूको बिक्री (Sale of Illegal Articles)", ""]
-    ],
-    footnote: "Dr. Vishwanath Paranjape classification <br> Source: Research based study report of Attorney General on "नेपालमा साइबर कसूर सम्बन्धी कानूनको प्रभाव मूल्याङ्कन" <br>Compiled by: Shiva Prasad Acharya, Supreme Court (2081)",
-    compiler: "AI generated",
-    dateCreated: "2024-11-30"
-},
+{
+          id: "T0009",
+          subject: "Cyber Security",
+          title: "Cyber Crime",
+          caption: "Forms of Cyber Crime",
+          table: [
+              ["", "व्यक्ति विरुद्ध हुने साइबर कसूर (Cyber Crimes Against Individual)", "सम्पत्ति विरुद्ध हुने साइबर कसूर (Cyber Crimes Against Property)", "राज्य तथा समाज विरुद्ध हुने साइबर कसूर (Cyber Crimes Against State & Society)", ""],
+              ["", "साइबर स्टकिङ्ग (Cyber Stalking)", "अवैध वस्तुहरूको बिक्री (Sale of Illegal Articles)", "गोप्य सूचना चोरी गर्न कम्प्युटर प्रणालीमा अनधिकृत प्रवेश (Intrusion of Computer System to extract secret Information)", ""],
+              ["", "अश्लील सामग्री प्रसारण (Dissemination Obscene Materials)", "इन्टर टाइम थेफ्ट (Inter time Theft)", "साइबर आतंकवाद (Cyber Terrorism)", ""],
+              ["", "कम्प्युटर प्रणालीमाथि अनधिकृत नियन्त्रण (Unauthorized Control Access over Computer System)", "बौद्धिक सम्पत्ति चोरी (Intellectual Property Crime)", "निजी सफ्टवेयरको वितरण (Distribution of Private Software)", ""],
+              ["", "अश्लील प्रदर्शन (Indecent exposure)", "कम्प्युटर प्रणालीमा अनधिकृत पहुँच (Unauthorized Access over Computer System)", "अवैध मानव बेचबिखन अनलाइन (Illegal Human Trafficking Online)", ""],
+              ["", "इमेल स्पूफिङ (Email Spoofing)", "डिनायल अफ सर्भिस आक्रमण (Denial of Service Attack)", "वित्तीय जालसाजी (Financial Frauds)", ""],
+              ["", "अश्लील चित्र/भिडियो (Pornography)", "भाइरस प्रसारण (Virus Transmission)", "अनलाइन जुवा (Online Gambling)", ""],
+              ["", "इमेल मार्फत दुर्व्यवहार (Harassment Via Email)", "कम्प्युटर तोडफोड (Computer Vandalism)", "अवैध वस्तुहरूको बिक्री (Sale of Illegal Articles)", ""]
+          ],
+          footnote: "Dr. Vishwanath Paranjape classification <br> Source: Research based study report of Attorney General on नेपालमा साइबर कसूर सम्बन्धी कानूनको प्रभाव मूल्याङ्कन <br>Compiled by: Shiva Prasad Acharya, Supreme Court (2081)",
+          compiler: "AI generated",
+          dateCreated: "2024-11-30"
+      },
   {
     id: "T0008",
     subject: "Ist paper: 1.5 Innovative Governance",
