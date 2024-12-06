@@ -1,4 +1,31 @@
 const tableData = [
+          {
+    id: "T0010",
+    subject: "Constitution",
+    title: "FR & DPSP",
+    caption: "Comparision between FR and DPSP",
+    table: [
+        ["Comparison Basis", "Fundamental Rights", "Directive Principles"],
+        ["<b>Nature and Status</b>", "Legally enforceable positive rights", "Positive obligations but not legally enforceable"],
+        ["<b>Scope and Coverage </b>", "Individual rights, specific र defined", "Collective welfare, broad र general guidelines"],
+        ["<b>Implementation</b>", "Immediate enforcement, judicial protection", "Progressive realization, resource dependent"],
+        ["<b>Constitutional Position</b>", "Part 3, mandatory provisions", "Part 4, directory provisions"],
+        ["<b>Legal Validity </b>", "Can't be violated, writ jurisdiction", "No direct legal remedy, moral force only"],
+        ["<b>Resource Requirement</b>", "Resource independent, must implement", "Resource dependent, capacity based"],
+        ["<b>Time Frame</b>", "Present focused, immediate effect", "Future oriented, long-term goals"],
+        ["<b>Amendment Process</b>", "Strict process, basic structure doctrine", "Relatively flexible, simpler process"],
+        ["<b>Priority Level </b>", "Top priority, no compromise", "Secondary priority, flexible approach"],
+        ["<b>Judicial Review</b>", "Court can protect र enforce", "Court can't directly enforce"],
+        ["<b>Remedial Action </b>", "Direct legal remedies available", "No specific legal remedies"],
+        ["<b>State's Role </b>", "State must protect at all costs", "State implements progressively"],
+        ["<b>Territory Limit</b>", "Limited to citizens mainly", "Applies to whole territory"],
+        ["<b>Political Nature</b>", "Less political, more legal", "More political, policy oriented"],
+        ["<b>Effect on Laws </b>", "Can invalidate contrary laws", "Guide law-making process"]
+    ],
+    footnote: "compiled by: Shiva Prasad Acharya, Supreme Court (2081)",
+    compiler: "Shiva Prasad Acharya, Supreme Court (2081)",
+    dateCreated: "2024-12-06"
+},
 {
           id: "T0009",
           subject: "Cyber Security",
