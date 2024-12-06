@@ -6,7 +6,7 @@ const tableData = [
     caption: "Comparision between FR and DPSP",
     table: [
         ["Comparison Basis", "Fundamental Rights", "Directive Principles"],
-        ["<b>Nature and Status</b>", "Legally enforceable positive rights", "Positive obligations but not legally enforceable"],
+        ["<b>Nature and Status</b>", "Legally enforceable positive & negative rights", "Positive obligations but not legally enforceable"],
         ["<b>Scope and Coverage </b>", "Individual rights, specific र defined", "Collective welfare, broad र general guidelines"],
         ["<b>Implementation</b>", "Immediate enforcement, judicial protection", "Progressive realization, resource dependent"],
         ["<b>Constitutional Position</b>", "Part 3, mandatory provisions", "Part 4, directory provisions"],
